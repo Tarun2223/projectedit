@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color: azure;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display:inline-block;
+    padding: 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 4px;
+    transition: 2.5s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px red inset,0 3px 50px red inset, 0 3px 50px red inset,0 3px 50px red inset;
+}
+
+.navbar .reserve{
+    padding: 8px;
+    background-color: orangered;
+}
+.main1{
+    background-image: url(./workplace-cooking-meal-on-dark-600nw-1827672272.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+.content{
+    position: absolute;
+    color:aliceblue;
+    top: 50%;
+    left: 30%;
+}
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.content h1{
+    font-size: 50px;
+
+}
+.res{
+    padding: 8px;
+    background-color:white;
+    color: black;
+    text-decoration:none;
+}
+.res:hover{
+    background-color: orangered;
+}
+nav{
+    background-color: black;
+} 
+.mai{
+    display: flex;
+    justify-content: center;
+}
+.maintext{
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+
+}
+.mn3{
+    text-align: center;
+    padding-left: 10%;
+}
+.im{
+    display: flex;
+    position: relative;
+    left: 25%;
+}
+.chef{
+    text-align: center;
+    background-color: lightcyan;
+}
+.chef2{
+    justify-content: center;
+    gap: 10rem;
+    background-color:lightcyan;
+    display: flex;
+}
+.ma2{
+    display: flex;
+    gap: 10rem;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.hh{
+    display:flex;
+    align-items: center;
+}
+.main22{
+     text-align: center;
+}
+.imgg{
+    position: relative;
+    display: inline-block;
+}
+.imgg{
+    /* display: block; */
+    width: 100%;    
+}
+.over{
+    position: absolute;
+    color: black;
+    left: 2%;
+    padding: 10px 20px;
+    text-align: center;
+}
+.main3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sub a{
+    width: 400px;
+    background-color: orangered;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 11px;
+}
+.end{
+    display: flex;
+}
+.mp{
+    display: flex;
+}
+.fot{
+    background-image: url(./pub.jpeg);
+    border-radius: 5%;
+    color: aliceblue;
+}
+.ikj{
+    display: grid;
+    grid-template-columns: repeat(2,lfr);
+    justify-content: center;
+    margin: 5%;
+}
+@media screen and (max-width:600px) {
+    .maintext{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cc .chef2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .chef2 img{
+        margin-left: 32%;
+    }
+    .chef2 h1,h5{
+        margin-left: 32%;
+    }
+    .mp{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    .end{
+        width: 100%;
+        display: grid;
+        gap:2rem;
+        justify-content: center;
+    }
+    .foo{
+        display: flex;
+        gap: 20%;
+    }
+    .main22 h5{
+        text-align: center;
+        padding-right: 30%;
+    }
+}
